@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongo"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": false
   },
   "Account": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   },
   "Coupon": {
-    "dataSource": "db",
+    "dataSource": "mongo",
     "public": true
   }
 }
