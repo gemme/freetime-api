@@ -1,0 +1,23 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "host": "${DB_HOST}",
+    "port": "${DB_PORT}",
+    "url": "",
+    "database": "${DB_DATABASE}",
+    "password": "${DB_PASS}",
+    "name": "mongo",
+    "user": "${DB_USER}",
+    "connector": "mongodb"
+  },
+  "media": {
+    "name": "media",
+    "connector": "loopback-component-storage",
+    "provider": "amazon",
+    "key": "WsGrcZVRXUvpHz8u1hjVogW+U+zwAgj7Cy8g3OgZ",
+    "keyId": "AKIAJKI7UPLLRBYKQ2TQ"
+  }
+}

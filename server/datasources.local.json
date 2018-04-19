@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongo": {
+    "url": "mongodb://heroku_k657xckh:fadpsgr82qn0u0766vso3tfmki@ds251849.mlab.com:51849/heroku_k657xckh",
+    "name": "mongo",
+    "connector": "mongodb"
+  },
+  "media": {
+    "name": "media",
+    "connector": "loopback-component-storage",
+    "provider": "amazon",
+    "key": "WsGrcZVRXUvpHz8u1hjVogW+U+zwAgj7Cy8g3OgZ",
+    "keyId": "AKIAJKI7UPLLRBYKQ2TQ"
+  }
+}

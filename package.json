@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
+    "start-local": "NODE_ENV=local node .",
     "posttest": "npm run lint && nsp check"
   },
   "dependencies": {
