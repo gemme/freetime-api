@@ -42,5 +42,9 @@
   "Coupon": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Reservation": {
+    "dataSource": "mongo",
+    "public": true
   }
 }

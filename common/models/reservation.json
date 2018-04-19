@@ -1,25 +1,19 @@
 {
-  "name": "Coupon",
+  "name": "Reservation",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "details": {
+    "email": {
       "type": "string"
     },
-    "price": {
-      "type": "number"
-    },
-    "discount_price": {
-      "type": "number"
-    },
-    "available_coupons": {
-      "type": "number"
+    "number": {
+      "type": "string"
     },
     "media_urls": {
       "type": [
@@ -29,17 +23,9 @@
   },
   "validations": [],
   "relations": {
-    "account": {
+    "coupon": {
       "type": "belongsTo",
-      "model": "Account",
-      "foreignKey": "",
-      "options": {
-        "nestRemoting": true
-      }
-    },
-    "reservations": {
-      "type": "hasMany",
-      "model": "Reservation",
+      "model": "Coupon",
       "foreignKey": "",
       "options": {
         "nestRemoting": true
