@@ -46,5 +46,9 @@
   "Reservation": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Media": {
+    "dataSource": "media",
+    "public": true
   }
 }

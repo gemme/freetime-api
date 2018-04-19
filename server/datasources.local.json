@@ -4,15 +4,13 @@
     "connector": "memory"
   },
   "mongo": {
-    "url": "mongodb://heroku_k657xckh:fadpsgr82qn0u0766vso3tfmki@ds251849.mlab.com:51849/heroku_k657xckh",
+    "host": "ds251849.mlab.com",
+    "port": "51849",
+    "url": "",
+    "database": "heroku_k657xckh",
+    "password": "fadpsgr82qn0u0766vso3tfmki",
     "name": "mongo",
+    "user": "heroku_k657xckh",
     "connector": "mongodb"
-  },
-  "media": {
-    "name": "media",
-    "connector": "loopback-component-storage",
-    "provider": "amazon",
-    "key": "WsGrcZVRXUvpHz8u1hjVogW+U+zwAgj7Cy8g3OgZ",
-    "keyId": "AKIAJKI7UPLLRBYKQ2TQ"
   }
 }
