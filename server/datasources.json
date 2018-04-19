@@ -7,7 +7,7 @@
     "host": "${DB_HOST}",
     "port": "${DB_PORT}",
     "url": "",
-    "database": "freetime",
+    "database": "${DB_DATABASE}",
     "password": "${DB_PASS}",
     "name": "mongo",
     "user": "${DB_USER}",
