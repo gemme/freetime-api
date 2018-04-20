@@ -25,6 +25,12 @@
       "type": [
         "string"
       ]
+    },
+    "coordinates": {
+      "type": "geopoint"
+    },
+    "location": {
+      "type": "string"
     }
   },
   "validations": [],
