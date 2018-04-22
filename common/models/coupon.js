@@ -6,7 +6,7 @@ module.exports = function(Coupon) {
       'include': {
         'relation': 'account',
         'scope': {
-          'fields': ['category', 'id'],
+          'fields': ['id', 'name', 'category'],
         },
       },
     }).then(coupons => {
