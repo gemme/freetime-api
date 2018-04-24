@@ -70,7 +70,7 @@ module.exports = function(Reservation) {
     // generate the QR image
     QRCode.toFile(_path, fileName, {
       color: {
-        dark: '#00F',  // Blue dots
+        dark: '#000',  // Blue dots
         light: '#0000', // Transparent background
       },
     })
