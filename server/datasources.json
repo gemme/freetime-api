@@ -17,7 +17,7 @@
     "name": "media",
     "connector": "loopback-component-storage",
     "provider": "amazon",
-    "key": "WsGrcZVRXUvpHz8u1hjVogW+U+zwAgj7Cy8g3OgZ",
-    "keyId": "AKIAJKI7UPLLRBYKQ2TQ"
+    "key": "${MEDIA_KEY}",
+    "keyId": "${MEDIA_KEY_ID}"
   }
 }
