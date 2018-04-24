@@ -79,6 +79,7 @@ module.exports = function(Reservation) {
     // create the stream and update url
     .then(writer => {
       fs.createReadStream(_path).pipe(writer);
+      // success response
       writer.on('finish', () => {
         ctx.instance.updateAttributes({
           id: ctx.instance.id,
@@ -89,9 +90,8 @@ module.exports = function(Reservation) {
         // delete the file
         .then(reservation => next(null, reservation));
       });
-      writer.on('error', err =>{
-        return next(err);
-      });
+      // error response
+      writer.on('error', err => next(err));
     })
     .catch(err => next(err));
   });
